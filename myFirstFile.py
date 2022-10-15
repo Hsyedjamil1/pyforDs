@@ -4,6 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Step - 2 you have to set a theme for seaborn
+# We can set style according to our need
 sns.set(style="ticks", color_codes=True)
 
 # Step - 3 Importing the dataset
@@ -22,3 +23,4 @@ plt.show()
 p = sns.countplot(x="sex", hue="class", data=ship)
 p.set_title("Titanic Passengers")
 plt.show()
+
